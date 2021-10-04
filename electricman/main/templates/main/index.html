@@ -240,37 +240,37 @@
 			</div><!-- Services Section -->
 			
 			<!-- About Section -->
-			{% block about%}
+			{% block about %}
 			<div class="about-section no-left-padding no-right-padding container-fluid">
 				<!-- Container -->
 				<div class="container">
 					<!-- Section Header -->
 					<div class="section-header">
 						<h3>{{about.title}}</h3>
-						<img src="{{about.separator}}" alt="seprator" />
+						<img src="{{ about.separator }}" alt="seprator" />
 					</div><!-- Section Header /- -->
 					<div class="col-md-4 col-sm-6 col-xs-6 about-content-left">
 						<div class="about-box">
-							<h5><i class="{{about.icon1}}"></i>{{about.subtitle1}}</h5>
+							<h5><i class="{{ about.icon1 }}"></i>{{ about.subtitle1 }}</h5>
 							<p>{{about.text1}}</p>
 						</div>
 						<div class="about-box">
-							<h5><i class="{{about.icon2}}"></i>{{about.subtitle2}}</h5>
-							<p>{{about.text2}}</p>
+							<h5><i class="{{ about.icon2 }}"></i>{{ about.subtitle2 }}</h5>
+							<p>{{ about.text2 }}</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 about-content-right">
 						<div class="about-box">
-							<h5><i class="{{about.icon3}}"></i>{{about.subtitle3}}</h5>
-							<p> {{about.text3}}</p>
+							<h5><i class="{{ about.icon3 }}"></i>{{ about.subtitle3 }}</h5>
+							<p> {{ about.text3 }}</p>
 						</div>
 						<div class="about-box">
-							<h5><i class="{{about.icon4}}"></i>{{about.subtitle4}}</h5>
-							<p>{{about.text4}}</p>
+							<h5><i class="{{about.icon4}}"></i>{{ about.subtitle4 }}</h5>
+							<p>{{ about.text4 }}</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12 col-xs-12 about-img">
-						<img src="{{about.image}}" alt="about" />
+						<img src="{{ about.image }}" alt="about" />
 					</div>
 				</div><!-- Container /- -->
 			</div>
